@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "ember-cli-materialize": "^0.22.0",
     "eslint": "^8.13.0",
     "eslint-plugin-react": "^7.29.4",
     "prettier": "2.6.2"
