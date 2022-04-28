@@ -2,7 +2,7 @@ import Header from "./layout/Header";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
-import { useTransition, animated} from "react-spring";
+import { useTransition, animated } from "react-spring";
 import { Routes, Route, useLocation } from "react-router-dom";
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
         className="container"
         style={{ position: "relative", overflow: "hidden", minHeight: "90vh" }}
       >
-        {transitions.map(({item, props, key}) => (
+        {transitions.map(({ item, props, key }) => (
           <animated.div key={key} style={props}>
             <div style={{ position: "absolute", width: "100%" }}>
               <Routes location={item}>

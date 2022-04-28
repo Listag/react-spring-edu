@@ -5,14 +5,14 @@ function Header() {
     <nav>
       <div className="nav-wrapper container">
         <Link to="/" className="brand-logo">
-          Тестовая анимация
+          My test animation
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <Link to="/about">О нас</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/contacts">Контакты</Link>
+            <Link to="/contacts">Contacts</Link>
           </li>
         </ul>
       </div>
